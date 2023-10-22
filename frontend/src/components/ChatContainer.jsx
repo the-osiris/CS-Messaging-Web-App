@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { completeChatRoute, sendMessageRoute } from "../utils/APIRoutes";
-import ChatInput from "./ChatInput";
+import ChatAgentInput from "./ChatAgentInput";
 import Logout from "./Logout";
 import axios from "axios";
 import { getAllMessageRoute } from "./../utils/APIRoutes";
@@ -132,7 +132,7 @@ export default function ChatContainer({ currentChat, currentUser, socket }) {
               );
             })}
           </div>
-          <ChatInput
+          <ChatAgentInput
             handleSendMsg={handleSendMsg}
             disabled={chatStatus !== "pending"}
           />
