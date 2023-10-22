@@ -54,7 +54,8 @@ export default function Contacts({
     let allChats = [...allContacts.allChats];
     if (keyword.trim() !== "") {
       allChats = allChats.filter((user) => {
-        return user.name.toLowerCase().includes(keyword.toLowerCase());
+        // console.log(user.user.name);
+        return user.user.name.toLowerCase().includes(keyword.toLowerCase());
       });
     }
     const filtered = { allChats: allChats };
