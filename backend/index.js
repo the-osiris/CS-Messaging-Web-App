@@ -42,7 +42,7 @@ app.post("/api/gpt", async (req, res) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer " + GPT_KEY,
+        Authorization: "Bearer " + process.env.GPT_KEY,
       },
       body: JSON.stringify(data),
     });
