@@ -42,8 +42,7 @@ app.post("/api/gpt", async (req, res) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization:
-          "Bearer " + "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",
+        Authorization: "Bearer " + GPT_KEY,
       },
       body: JSON.stringify(data),
     });
