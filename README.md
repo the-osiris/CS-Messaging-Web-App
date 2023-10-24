@@ -2,7 +2,7 @@
 
 ## Step 1: Open a terminal for backend and frontend folder each 
 ## Step 2: Run "npm install" in both the terminals
-![image](https://raw.githubusercontent.com/the-osiris/CS-Messaging-Web-App/assets/91742676/56858f16-0c49-4be3-93d9-5d3b87646d65)
+![image](https://github.com/the-osiris/CS-Messaging-Web-App/assets/91742676/56858f16-0c49-4be3-93d9-5d3b87646d65)
 ## Step 3: Run "npm start" first in backend terminal and then in frontend terminal
 ![image](https://github.com/the-osiris/CS-Messaging-Web-App/assets/91742676/1007cd03-e18d-4af0-abd4-a4bea3f2b4a9)
 
